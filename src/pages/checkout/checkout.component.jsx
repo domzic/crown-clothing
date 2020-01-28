@@ -8,7 +8,6 @@ import StripeCheckoutButton from '../../components/stripe-button/stripe-button.c
 import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selectors';
 
 import './checkout.styles.scss';
-import { create } from 'handlebars';
 
 const CheckoutPage = ({ cartItems, total }) => (
     <div className='checkout-page'>
